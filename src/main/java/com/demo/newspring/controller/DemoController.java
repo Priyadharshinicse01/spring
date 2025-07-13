@@ -10,7 +10,7 @@ public class DemoController {
 		@GetMapping("/")
 			public String home()
 			{
-				return "index";
+				return "pages/index";
 			}
 
 	}
